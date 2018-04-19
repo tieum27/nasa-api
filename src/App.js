@@ -49,7 +49,9 @@ class App extends Component {
       <div className="App">
         <div className="container" >
           <PageHeader>
+            <img src="./images/asteroid.png" alt="Asteroid" />
             NASA Meteor
+            <img src="./images/meteor-1.png" alt="Meteor" />
           </PageHeader>
           <Jumbotron>
           </Jumbotron>
