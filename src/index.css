@@ -16,3 +16,10 @@ img {
   font-size: 1.15em;
   font-weight: bold;
 }
+
+.safe {
+  background-color: #008000;
+  color: #000;
+  font-size: 1.15em;
+  font-weight: bold;
+}

@@ -71,7 +71,7 @@ class App extends Component {
             <tbody>
               {this.state.asteroids.map((asteroid)=>{
                 return(
-                  <tr key={asteroid.id} className={ asteroid.hazardous == "true" ? "danger" : ""}>
+                  <tr key={asteroid.id} className={ asteroid.hazardous == "true" ? "danger" : "safe"}>
                     <td>{asteroid.name}</td>
                     <td>{asteroid.diameterMin} - {asteroid.diameterMax}</td>
                     <td>{asteroid.date}</td>
