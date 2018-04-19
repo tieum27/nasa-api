@@ -9,3 +9,10 @@ img {
   height: auto;
   margin: 2% 3%;
 }
+
+.danger {
+  background-color: #ff0000;
+  color: #000;
+  font-size: 1.15em;
+  font-weight: bold;
+}
